@@ -1,0 +1,21 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 800
+    min-spare-threads: 30
+  port: 8088
+  servlet:
+    context-path: /kafkaDemo
+#spring:
+#  kafka:
+#    bootstrap-servers: kafka1.common.test.yirendai.com:9091,kafka2.common.test.yirendai.com:9092,kafka3.common.test.yirendai.com:9093
+##    bootstrap-servers: 10.134.0.207:9092,10.134.0.208:9092,10.134.0.209:9092,10.134.0.206:9092,10.134.0.203:9092
+#    producer:
+#      acks: 1
+#      retries: 3
+#    consumer:
+#      group-id: beacon_kafka_demo
+#      auto-offset-reset: earliest
+#    listener:
+#      missing-topics-fatal: false
+
